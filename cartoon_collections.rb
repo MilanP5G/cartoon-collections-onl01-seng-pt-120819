@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(array)
   
-    word.collect {|w| w.capitalize + "!"} 
+    array.collect {|w| w.capitalize + "!"} 
     
 end
 
