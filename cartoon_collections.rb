@@ -1,7 +1,7 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves(dwarves)
   list_names = []
-    names.each_with_index(1) do |name, num| 
-      list_names << " #{num}. #{customer}"
+    dwarves.each_with_index(1) do |dwarf, num| 
+      list_names << " #{num}. #{dwarf}"
   end
   puts list_names
 end
