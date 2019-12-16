@@ -30,6 +30,7 @@ def find_the_cheese(array)
   if true
     array.detect {|i| i.type?}
   else
+    false
   end
   
   # the array below is here to help
