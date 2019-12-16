@@ -8,7 +8,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-    new_array = 0
+  
+    names.collect {|name| name.capitalize }
     
 end
 
