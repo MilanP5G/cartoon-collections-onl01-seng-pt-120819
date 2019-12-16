@@ -25,7 +25,7 @@ end
 
 def find_the_cheese(array)
   
-  array.select {|i| i.is_a?(String)} 
+  array.select {|i| i.is_a?(type)} 
   
   
   # the array below is here to help
