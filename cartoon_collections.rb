@@ -25,7 +25,7 @@ end
 
 def find_the_cheese(array)
   
-  array.detect{|i| i. 
+  array.detect {|i| i. 
   
   
   # the array below is here to help
