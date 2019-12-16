@@ -15,7 +15,11 @@ end
 
 def long_planeteer_calls(array)
   
-  array.length.any?{|i| i > 4}
+  true_array = true
+    array.each do |i|
+    if i.length > 4
+     true_array = false
+  end
   
 end
 
