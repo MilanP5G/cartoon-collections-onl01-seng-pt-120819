@@ -25,7 +25,7 @@ end
 
 def find_the_cheese(array)
   
-  array.include 
+  array.map  
   
   
   # the array below is here to help
