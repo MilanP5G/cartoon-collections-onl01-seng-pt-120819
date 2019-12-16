@@ -1,9 +1,8 @@
-def roll_call_dwarves
-  list_names = []
-    dwarves.each_with_index(1) do |dwarf, num| 
+def roll_call_dwarves(dwarves)
+  
+    dwarves.each_with_index(1).collect |dwarf, num| 
       list_names << "#{num}. #{dwarf}"
-  end
-  list_names
+  
 end
 
 def summon_captain_planet# code an argument here
