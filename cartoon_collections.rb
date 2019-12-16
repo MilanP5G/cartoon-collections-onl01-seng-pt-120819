@@ -15,10 +15,12 @@ end
 
 def long_planeteer_calls(array)
   
-  all_odd = false
+
   array.each do |word|
   if word.length > 4
-    all_odd = true
+     puts true
+   else
+     false
   end
 end
   
